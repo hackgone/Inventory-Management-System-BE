@@ -1,0 +1,11 @@
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\bin\Debug\net6.0\ApiCore.deps.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\bin\Debug\net6.0\ApiCore.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\bin\Debug\net6.0\ApiCore.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.AssemblyInfoInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.AssemblyInfo.cs
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.csproj.CoreCompileInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\refint\ApiCore.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ref\ApiCore.dll

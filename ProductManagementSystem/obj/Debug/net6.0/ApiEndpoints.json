@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.Login",
+    "Method": "Index",
+    "RelativePath": "Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
