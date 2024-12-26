@@ -1,6 +1,4 @@
-﻿using AllServices.DbContextService;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,16 +6,16 @@ using System.Threading.Tasks;
 using ApiCore.Entity;
 using AllServices.RepositoryService;
 
-namespace AllServices.DbTestService
+namespace AllServices.DbService
 {
-    //User defined methods here
-    public class UserDbTest<TEntity> : IUserDbTest<TEntity> where TEntity : class
+    public class DbService<TEntity> : IDbService<TEntity> where TEntity : class
     {
         private readonly IRepository<TEntity> _repo;
-        public UserDbTest(IRepository<TEntity> repo) {
+        public DbService(IRepository<TEntity> repo)
+        {
             _repo = repo;
         }
-        public List<TEntity> GetUsers()
+        public List<TEntity> GetAllData()
         {
             var result = _repo.GetAll().ToList();
             return result ?? new List<TEntity>();

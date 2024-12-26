@@ -7,8 +7,8 @@ using ApiCore.Entity;
 
 namespace AllServices.DbTestService
 {
-    public interface IUserDbTest
+    public interface IUserDbTest<TEntity> where TEntity : class
     {
-        public List<User> GetUsers();
+        public List<TEntity> GetUsers();
     }
 }

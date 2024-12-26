@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d00e2206e056eb74f9d68df19e8aa4ec74aa4f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04ec0d9d1cf4edb666d9d8f7fb7f56620a77ad6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

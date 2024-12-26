@@ -1,5 +1,7 @@
 ﻿using AllServices.DbTestService;
+using ApiCore.Entity;
 using Microsoft.AspNetCore.Mvc;
+using AllServices.DbService;
 
 namespace ProductManagementSystem.Controllers
 {
@@ -7,14 +9,14 @@ namespace ProductManagementSystem.Controllers
     [Route("/Login")]
     public class Login : Controller
     {   
-        private IUserDbTest _dbservice;
-        public Login(IUserDbTest dbservice) { 
+        private IDbService<User> _dbservice;
+        public Login(IDbService<User> dbservice) { 
             _dbservice = dbservice;
         }
         [HttpGet]
         public IActionResult Index()
         {
-            var data = this._dbservice.GetUsers();
+            var data = this._dbservice.GetAllData();
             return Json(data);
         }
     }

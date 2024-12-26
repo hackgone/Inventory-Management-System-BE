@@ -1,5 +1,7 @@
 using AllServices.DbContextService;
 using AllServices.DbTestService;
+using AllServices.DbService;
+using AllServices.RepositoryService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,12 +14,9 @@ builder.Services.AddDbContext<CommonDbContext>(Options =>
     Options.UseSqlServer(builder.Configuration["ConnectionString"]);
 });
 
-builder.Services.Add(new ServiceDescriptor(
-    typeof(IUserDbTest),
-    typeof(UserDbTest),
-    ServiceLifetime.Transient
-));
-
+builder.Services.AddTransient(typeof(IUserDbTest<>), typeof(UserDbTest<>));
+builder.Services.AddTransient(typeof(IDbService<>), typeof(DbService<>));
+builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
