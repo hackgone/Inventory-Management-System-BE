@@ -15,3 +15,6 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\ne
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.genruntimeconfig.cache
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\ref\AllServices.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.sourcelink.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\ApiData.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\ApiData.pdb

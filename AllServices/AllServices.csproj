@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiCore\ApiCore.csproj" />
+    <ProjectReference Include="..\ApiData\ApiData.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ApiCore.Entity;
+using ApiData.Mappings;
 
 namespace AllServices.DbContextService
 {
@@ -18,9 +19,12 @@ namespace AllServices.DbContextService
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().ToTable("User");
+        
+            modelBuilder.ApplyConfiguration(new UserMapping());
         }
+        
+
 
     }
-   
+
 }

@@ -1,0 +1,16 @@
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.csproj.AssemblyReference.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.AssemblyInfoInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.AssemblyInfo.cs
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.csproj.CoreCompileInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.sourcelink.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\bin\Debug\net6.0\ApiData.deps.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\bin\Debug\net6.0\ApiData.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\bin\Debug\net6.0\ApiData.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\bin\Debug\net6.0\ApiCore.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\bin\Debug\net6.0\ApiCore.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.csproj.Up2Date
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\refint\ApiData.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ApiData.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiData\obj\Debug\net6.0\ref\ApiData.dll

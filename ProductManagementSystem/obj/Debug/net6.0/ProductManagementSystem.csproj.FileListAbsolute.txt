@@ -76,3 +76,7 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\AllServices.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiCore.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductM.5C44DB75.Up2Date
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.sourcelink.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\libman.json
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiData.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiData.pdb
