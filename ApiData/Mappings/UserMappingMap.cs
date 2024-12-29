@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace ApiData.Mappings
 {
-    public class UserMapping : IEntityTypeConfiguration<User>
+    public class UserMappingMap : IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {

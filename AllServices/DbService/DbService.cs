@@ -20,5 +20,13 @@ namespace AllServices.DbService
             var result = _repo.GetAll().ToList();
             return result ?? new List<TEntity>();
         }
+        public async Task SaveData(TEntity entity)
+        {
+            await _repo.SaveData(entity);
+        }
+        public async Task<int> GetDataByName(string name,String propertyName)
+        {
+            return await _repo.GetSpecificId(name,propertyName);
+        }
     }
 }

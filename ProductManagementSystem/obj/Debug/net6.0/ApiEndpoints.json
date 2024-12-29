@@ -1,12 +1,18 @@
 [
   {
-    "ContainingType": "ProductManagementSystem.Controllers.Login",
-    "Method": "Index",
-    "RelativePath": "Login",
+    "ContainingType": "ProductManagementSystem.Controllers.Auth",
+    "Method": "Signup",
+    "RelativePath": "signup",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ApiCore.Dto.Login",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

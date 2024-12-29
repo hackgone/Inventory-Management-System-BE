@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YPvkl1wOd2g=",
+  "dgSpecHash": "MAqlu+Z6nCg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\ProductManagementSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Piyush\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Piyush\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Piyush\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Piyush\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

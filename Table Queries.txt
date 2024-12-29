@@ -1,0 +1,22 @@
+ALTER TABLE [User]
+ADD Name VARCHAR(100) 
+
+create table UserRole(
+id int identity(1,1) primary key,
+RoleName varchar(20)
+)
+
+INSERT INTO [userrole] (RoleName) 
+VALUES 
+('End User'),
+('Super User');
+
+
+
+create table UserRoleMapping(
+id int identity(1,1) primary key,
+UserId int not null,
+userroleid int not null,
+FOREIGN  Key(UserId) REFERENCES [User](id),
+FOREIGN key (userroleid) references userrole(id)
+)

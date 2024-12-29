@@ -80,3 +80,4 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\libman.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiData.dll
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiData.pdb
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\AutoMapper.dll
