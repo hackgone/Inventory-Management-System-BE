@@ -18,39 +18,22 @@ namespace AllServices.RepositoryService
         {
             _dbContext = dbContext;
         }
+
         public virtual IEnumerable<T> GetAll()
         {
             return this.Entities.ToList();
         }
-        public async Task<int> GetSpecificId(string value, string propertyName)
-        {
-            if (string.IsNullOrWhiteSpace(propertyName))
-                throw new ArgumentException("Property name cannot be null or empty.", nameof(propertyName));
-
-            if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("Value cannot be null or empty.", nameof(value));
-
-            try
-            {
-                var result = await this.Entities
-                    .Where(e => EF.Property<string>(e, propertyName) == value)
-                    .Select(e => EF.Property<int>(e, "Id"))
-                    .FirstOrDefaultAsync();
-
-                return result; // Return the found Id or 0 if no match is found
-            }
-            catch (Exception ex)
-            {
-                // Log or handle the exception as necessary
-                throw new InvalidOperationException($"Error querying for property '{propertyName}' with value '{value}'.", ex);
-            }
-        }
+        
 
         public virtual async Task SaveData(T data)
         {
             await this.Entities.AddAsync(data);
             await this._dbContext.SaveChangesAsync();
         }
+        
+
+
+
         protected virtual DbSet<T> Entities
         {
             get

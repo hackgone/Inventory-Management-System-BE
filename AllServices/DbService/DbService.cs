@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ApiCore.Entity;
 using AllServices.RepositoryService;
+using Microsoft.EntityFrameworkCore;
 
 namespace AllServices.DbService
 {
@@ -24,9 +25,14 @@ namespace AllServices.DbService
         {
             await _repo.SaveData(entity);
         }
-        public async Task<int> GetDataByName(string name,String propertyName)
+        //public async Task<int> GetDataByName(string name,String propertyName)
+        //{
+        //    return await _repo.GetSpecificId(name,propertyName);
+        //}
+        public IEnumerable<TEntity> Get() 
         {
-            return await _repo.GetSpecificId(name,propertyName);
+            return  _repo.GetAll().ToList();
         }
+        
     }
 }

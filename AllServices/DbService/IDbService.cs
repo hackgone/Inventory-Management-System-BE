@@ -10,6 +10,8 @@ namespace AllServices.DbService
     {
         public List<TEntity> GetAllData();
         public Task SaveData(TEntity entity);
-        public Task<int> GetDataByName(string name, String propertyName);
+        //public Task<int> GetDataByName(string name, String propertyName);
+        
+        public IEnumerable<TEntity> Get();
     }
 }

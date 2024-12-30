@@ -12,6 +12,6 @@ namespace AllServices.RepositoryService
     {
         IEnumerable<T> GetAll();
         Task SaveData(T data);
-        Task<int> GetSpecificId(String value, String propertyName);
+        
     }
 }

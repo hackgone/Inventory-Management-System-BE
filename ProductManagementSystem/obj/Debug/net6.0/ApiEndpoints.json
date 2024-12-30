@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "ProductManagementSystem.Controllers.Auth",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ApiCore.Dto.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.Auth",
     "Method": "Signup",
     "RelativePath": "signup",
     "HttpMethod": "GET",

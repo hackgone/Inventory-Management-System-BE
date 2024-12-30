@@ -10,5 +10,6 @@ namespace AllServices.AuthService
     public interface IAuthService
     {
         Task SaveUserCred(Login UserRequest);
+        public Task<int> FindUserByEmail(String email);
     }
 }

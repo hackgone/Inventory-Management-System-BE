@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\productmanagementsystem\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\authservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\authservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\dbservice\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\dbservice\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE84CB90-B544-4516-AEF5-D7CB70FB90A8}|ApiCore\\ApiCore.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\apicore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE84CB90-B544-4516-AEF5-D7CB70FB90A8}|ApiCore\\ApiCore.csproj|solutionrelative:apicore\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\repositoryservice\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\repositoryservice\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\dbservice\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\dbservice\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\dbservice\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\dbservice\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\productmanagementsystem\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\dbservice\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\dbservice\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\repositoryservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,53 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\Auth.cs",
-              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\Auth.cs",
-              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\Auth.cs",
-              "RelativeToolTip": "ProductManagementSystem\\Controllers\\Auth.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBEAAAAUAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ApiCore\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "ApiCore\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ApiCore\\Entity\\User.cs",
+              "RelativeToolTip": "ApiCore\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:57:49.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\AuthService\\IAuthService.cs",
-              "RelativeDocumentMoniker": "AllServices\\AuthService\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\AuthService\\IAuthService.cs",
-              "RelativeToolTip": "AllServices\\AuthService\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:57:31.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "ProductManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
-              "RelativeToolTip": "ProductManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:44:50.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbService.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\DbService\\DbService.cs",
-              "RelativeDocumentMoniker": "AllServices\\DbService\\DbService.cs",
-              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\DbService\\DbService.cs",
-              "RelativeToolTip": "AllServices\\DbService\\DbService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:06:37.073Z",
+              "WhenOpened": "2024-12-30T13:58:36.737Z",
               "EditorCaption": ""
             },
             {
@@ -104,46 +61,72 @@
               "RelativeDocumentMoniker": "AllServices\\DbService\\IDbService.cs",
               "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\DbService\\IDbService.cs",
               "RelativeToolTip": "AllServices\\DbService\\IDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T11:29:15.453Z",
+              "WhenOpened": "2024-12-30T13:54:07.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\IRepository.cs",
+              "RelativeDocumentMoniker": "AllServices\\RepositoryService\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\IRepository.cs",
+              "RelativeToolTip": "AllServices\\RepositoryService\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:52:51.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\Auth.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\Auth.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\Auth.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\Auth.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T06:57:49.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbService.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\DbService\\DbService.cs",
+              "RelativeDocumentMoniker": "AllServices\\DbService\\DbService.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\DbService\\DbService.cs",
+              "RelativeToolTip": "AllServices\\DbService\\DbService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T16:06:37.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\Repository.cs",
               "RelativeDocumentMoniker": "AllServices\\RepositoryService\\Repository.cs",
               "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\Repository.cs",
               "RelativeToolTip": "AllServices\\RepositoryService\\Repository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T11:22:32.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\IRepository.cs",
-              "RelativeDocumentMoniker": "AllServices\\RepositoryService\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\RepositoryService\\IRepository.cs",
-              "RelativeToolTip": "AllServices\\RepositoryService\\IRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAArwA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T11:22:30.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\AuthService\\AuthService.cs",
               "RelativeDocumentMoniker": "AllServices\\AuthService\\AuthService.cs",
               "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\AuthService\\AuthService.cs",
               "RelativeToolTip": "AllServices\\AuthService\\AuthService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwBkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T11:11:04.44Z",
               "EditorCaption": ""
