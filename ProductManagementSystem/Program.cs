@@ -8,6 +8,7 @@ using AllServices.AuthService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AllServices.JWTService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ builder.Services.AddScoped(typeof(IDbService<>), typeof(DbService<>));
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddAutoMapper(typeof(AutoMappingProfile));
 builder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
+builder.Services.AddScoped(typeof(IJwtProvider),typeof(JwtProviderService));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
@@ -37,6 +39,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
+});
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("EndUserRole", policy => policy.RequireRole("EndUser"));
+    options.AddPolicy("SuperUserRole", policy => policy.RequireRole("SuperUser"));
 });
 
 var app = builder.Build();

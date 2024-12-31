@@ -42,11 +42,8 @@ namespace AllServices.AuthService
         }
         public async Task<int> FindUserByEmail(String email)
         {
-            
-            var res =  _userDbService.GetAllData();
-            //res = res.Where(e=>e.Email == email);
-            System.Console.WriteLine(res);
-            return 1;
+          return _userDbService.GetUserByExp(e => e.Email == email).FirstOrDefault().Id;
         }
+        
     }
 }

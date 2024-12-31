@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ApiCore.Entity;
 using AllServices.RepositoryService;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace AllServices.DbService
 {
@@ -25,10 +26,12 @@ namespace AllServices.DbService
         {
             await _repo.SaveData(entity);
         }
-        //public async Task<int> GetDataByName(string name,String propertyName)
-        //{
-        //    return await _repo.GetSpecificId(name,propertyName);
-        //}
+        
+        public List<TEntity> GetUserByExp(Expression<Func<TEntity, bool>> expression)
+        {
+            return _repo.GetDataSpecific
+                (expression);
+        }
         public IEnumerable<TEntity> Get() 
         {
             return  _repo.GetAll().ToList();

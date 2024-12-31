@@ -12,6 +12,6 @@ namespace AllServices.RepositoryService
     {
         IEnumerable<T> GetAll();
         Task SaveData(T data);
-        
+        List<T> GetDataSpecific(Expression<Func<T, bool>> expression);
     }
 }

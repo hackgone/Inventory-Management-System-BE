@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ProductManagementSystem.Controllers.Auth",
+    "ContainingType": "ProductManagementSystem.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "login",
     "HttpMethod": "GET",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "ContainingType": "ProductManagementSystem.Controllers.Auth",
+    "ContainingType": "ProductManagementSystem.Controllers.AuthController",
     "Method": "Signup",
     "RelativePath": "signup",
     "HttpMethod": "GET",

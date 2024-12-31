@@ -24,16 +24,16 @@ namespace AllServices.RepositoryService
             return this.Entities.ToList();
         }
         
-
         public virtual async Task SaveData(T data)
         {
             await this.Entities.AddAsync(data);
             await this._dbContext.SaveChangesAsync();
         }
-        
 
-
-
+        public List<T> GetDataSpecific(Expression<Func<T, bool>> expression)
+        {
+            return this.Entities.Where(expression).ToList();   
+        } 
         protected virtual DbSet<T> Entities
         {
             get
