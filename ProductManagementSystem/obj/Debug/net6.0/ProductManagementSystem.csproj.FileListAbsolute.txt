@@ -1,3 +1,10 @@
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.AssemblyInfo.cs
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.sourcelink.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\appsettings.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\libman.json
@@ -61,13 +68,6 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\AllServices.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiCore.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\bin\Debug\net6.0\ApiData.pdb
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.csproj.AssemblyReference.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.AssemblyInfoInputs.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.AssemblyInfo.cs
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\ProductManagementSystem.sourcelink.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ProductManagementSystem\obj\Debug\net6.0\staticwebassets\msbuild.ProductManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props

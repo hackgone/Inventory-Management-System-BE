@@ -1,3 +1,9 @@
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.csproj.AssemblyReference.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.AssemblyInfoInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.AssemblyInfo.cs
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.csproj.CoreCompileInputs.cache
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.sourcelink.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\AllServices.deps.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\AllServices.runtimeconfig.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\AllServices.dll
@@ -6,12 +12,6 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\ne
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\ApiData.dll
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\ApiCore.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\bin\Debug\net6.0\ApiData.pdb
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.csproj.AssemblyReference.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.AssemblyInfoInputs.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.AssemblyInfo.cs
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.csproj.CoreCompileInputs.cache
-C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.sourcelink.json
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServi.ED729A0B.Up2Date
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\AllServices.dll
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\AllServices\obj\Debug\net6.0\refint\AllServices.dll

@@ -33,8 +33,7 @@ namespace ProductManagementSystem.Controllers
         [Route("login")]
         [HttpGet]
         public async Task<string> Login([FromBody] Login request)
-        {
-            // Find user by email (ensure this method is awaited)
+        { 
             var res = await _authService.FindUserByEmail(request.Email);
             
 
@@ -43,7 +42,7 @@ namespace ProductManagementSystem.Controllers
                 throw new UnauthorizedAccessException("Invalid User Email");
             }
 
-            return _jwtProvider.GetJwtToken(request.Email,request.Name,request.UserRole,res) ;
+            return await _jwtProvider.GetJwtToken(request.Email,request.Name,request.UserRole,res) ;
         }
 
 

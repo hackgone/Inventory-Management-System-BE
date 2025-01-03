@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\productmanagementsystem\\controllers\\endusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AA09A1-261B-4206-84E4-C238FE38AEF9}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\endusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|c:\\users\\piyush\\desktop\\be task\\productmanagementsystem\\allservices\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5832314A-55F1-47B6-9DA1-0CB3537B7EE7}|AllServices\\AllServices.csproj|solutionrelative:allservices\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\Order\\IOrderService.cs",
+              "RelativeDocumentMoniker": "AllServices\\Order\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\Order\\IOrderService.cs",
+              "RelativeToolTip": "AllServices\\Order\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:42:07.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "AllServices\\Order\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\AllServices\\Order\\OrderService.cs",
+              "RelativeToolTip": "AllServices\\Order\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:26:52.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EndUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\EndUserController.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\EndUserController.cs",
+              "ToolTip": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\EndUserController.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\EndUserController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:02:00.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

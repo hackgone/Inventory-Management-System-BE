@@ -13,6 +13,6 @@ namespace AllServices.JWTService
 {
     public interface IJwtProvider
     {
-        public string GetJwtToken(string Email, string UserName, string Userrole, int UserId);
+        public Task<string> GetJwtToken(string Email, string UserName, string Userrole, int UserId);
     }
 }

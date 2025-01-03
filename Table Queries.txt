@@ -20,3 +20,44 @@ userroleid int not null,
 FOREIGN  Key(UserId) REFERENCES [User](id),
 FOREIGN key (userroleid) references userrole(id)
 )
+
+
+create table [SecurityAttribute]
+(
+id int identity(1,1) primary key,
+userid int,
+jwttoken nvarchar(1000),
+FOREIGN  Key(UserId) REFERENCES [User](id),
+)
+
+
+create table [Products] (
+id int identity(1,1) primary key,
+Name Varchar(100),
+Price int,
+Description Varchar(100),
+ProductSku Varchar(100),
+Published int,
+Deleted int,
+Rowversion rowversion
+)
+
+
+create table [ProductInventory]
+(
+Id int identity(1,1),
+ProductId int,
+TotalQuantity int,
+AvailableQuantity int
+Foreign Key(ProductID) references Products(id)
+)
+
+ALTER TABLE [productinventory]
+ADD Rowversion ROWVERSION;
+
+
+insert into [ProductInventory](productid,totalquantity,availablequantity) values
+(1,10,10) 
+
+ALTER TABLE [products]
+ALTER COLUMN deleted BIT;	

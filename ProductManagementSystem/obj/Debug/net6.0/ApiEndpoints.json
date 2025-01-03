@@ -1,5 +1,46 @@
 [
   {
+    "ContainingType": "ProductManagementSystem.Controllers.EndUserController",
+    "Method": "CreateOrder",
+    "RelativePath": "EndUser/CreateOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.EndUserController",
+    "Method": "InventoryStatus",
+    "RelativePath": "EndUser/InventoryStatus",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.EndUserController",
+    "Method": "ViewProducts",
+    "RelativePath": "EndUser/ViewProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StartPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProductManagementSystem.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "login",
@@ -39,6 +80,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.SuperUserController",
+    "Method": "DeleteProduct",
+    "RelativePath": "SuperUser/DeleteProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementSystem.Controllers.SuperUserController",
+    "Method": "EditProduct",
+    "RelativePath": "SuperUser/EditProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -9,17 +9,21 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using AllServices.DbService;
+using ApiCore.Entity;
 
 namespace AllServices.JWTService
 {
     public class JwtProviderService: IJwtProvider
     {
         private readonly IConfiguration _configuration;
-        public JwtProviderService(IConfiguration configuration)
+        private readonly IDbService<SecurityAttribute> _dbService;
+        public JwtProviderService(IConfiguration configuration, IDbService<SecurityAttribute> dbService)
         {
             _configuration = configuration;
+            _dbService = dbService;
         }
-        public string GetJwtToken(string Email,string UserName,string Userrole,int UserId)
+        public async Task<string> GetJwtToken(string Email,string UserName,string Userrole,int UserId)
         {
             
              var claims = new[]
@@ -39,10 +43,12 @@ namespace AllServices.JWTService
                 _configuration["Jwt:Issuer"],
                 _configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.UtcNow.AddMinutes(10),
+                expires: DateTime.UtcNow.AddHours(10),
                 signingCredentials: signIn);
 
             var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
+
+            await _dbService.SaveData(new SecurityAttribute(UserId, jwtToken));
             return jwtToken;
         }
     }
