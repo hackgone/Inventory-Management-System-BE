@@ -10,6 +10,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AllServices.JWTService;
 using AllServices.Order;
+using ApiCore.ServiceProvider;
+using AllServices.ExternalProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +29,10 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddAutoMapper(typeof(AutoMappingProfile));
 builder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
 builder.Services.AddScoped(typeof(IJwtProvider),typeof(JwtProviderService));
-builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+builder.Services.AddScoped(typeof(IProductService), typeof(ProductService));
+builder.Services.AddScoped(typeof(IServiceHelper),typeof(ServiceHelper));
+builder.Services.AddScoped(typeof(Amazon));
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

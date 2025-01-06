@@ -34,6 +34,28 @@ namespace AllServices.RepositoryService
         {
             return this.Entities.Where(expression).ToList();   
         } 
+        public List<T> JoinData(Expression<Func<T, object>> expression)
+        {
+            return this.Entities.Include(expression).ToList(); //its a inner join after this we can user where clause
+        }
+        public void Update(T data)
+        {
+            var entry = _dbContext.Entry(data);
+
+            // Ensure the RowVersion property is not marked as modified
+            entry.Property("RowVersion").IsModified = false;
+
+            // Update the entity
+            this.Entities.Update(data);
+
+            // Save changes to the database
+            this._dbContext.SaveChanges();
+        }
+        public void Delete(T data)
+        {
+            this.Entities.Remove(data);
+            this._dbContext.SaveChanges();
+        }
         protected virtual DbSet<T> Entities
         {
             get

@@ -13,5 +13,8 @@ namespace AllServices.RepositoryService
         IEnumerable<T> GetAll();
         Task SaveData(T data);
         List<T> GetDataSpecific(Expression<Func<T, bool>> expression);
+        List<T> JoinData(Expression<Func<T, object>> expression);
+        void Delete(T data);
+        void Update(T data);
     }
 }

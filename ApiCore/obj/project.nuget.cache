@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IY+hzROQMHw=",
+  "dgSpecHash": "1ZmxIg/diuw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Piyush\\Desktop\\BE Task\\ProductManagementSystem\\ApiCore\\ApiCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Piyush\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Piyush\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Piyush\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

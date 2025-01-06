@@ -15,5 +15,7 @@ namespace AllServices.DbService
         
         public IEnumerable<TEntity> Get();
         public List<TEntity> GetUserByExp(Expression<Func<TEntity, bool>> expression);
+        public List<TEntity> JoinData(Expression<Func<TEntity, object>> expression);
+        public void UpdateEntity(TEntity entity);
     }
 }

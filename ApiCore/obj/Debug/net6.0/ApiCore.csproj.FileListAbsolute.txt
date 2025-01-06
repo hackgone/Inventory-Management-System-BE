@@ -10,3 +10,4 @@ C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\refint\ApiCore.dll
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.pdb
 C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ref\ApiCore.dll
+C:\Users\Piyush\Desktop\BE Task\ProductManagementSystem\ApiCore\obj\Debug\net6.0\ApiCore.csproj.AssemblyReference.cache

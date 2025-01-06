@@ -650,6 +650,10 @@
         }
       },
       "ApiCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
         "runtime": {
           "ApiCore.dll": {
             "assemblyVersion": "1.0.0",

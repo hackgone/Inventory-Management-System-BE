@@ -32,9 +32,17 @@ namespace AllServices.DbService
             return _repo.GetDataSpecific
                 (expression);
         }
+        public List<TEntity> JoinData(Expression<Func<TEntity, object>> expression)
+        {
+            return _repo.JoinData(expression);
+        }
         public IEnumerable<TEntity> Get() 
         {
             return  _repo.GetAll().ToList();
+        }
+        public void UpdateEntity(TEntity entity)
+        {
+            _repo.Update(entity);
         }
         
     }

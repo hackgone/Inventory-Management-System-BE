@@ -9,8 +9,10 @@ using ApiCore.Entity;
 
 namespace AllServices.Order
 {
-    public interface IOrderService
+    public interface IProductService
     {
         public List<Product> GetProducts(int StartPrice = int.MinValue, int EndPrice = int.MinValue);
+        public List<ProductInventory> GetProductInventoryStatus();
+        public void CreateOrder();
     }
 }
