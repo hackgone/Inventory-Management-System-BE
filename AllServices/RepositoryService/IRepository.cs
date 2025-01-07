@@ -16,5 +16,6 @@ namespace AllServices.RepositoryService
         List<T> JoinData(Expression<Func<T, object>> expression);
         void Delete(T data);
         void Update(T data);
+        Task<int> SaveAsync(CancellationToken ct);
     }
 }

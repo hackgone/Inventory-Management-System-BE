@@ -31,7 +31,8 @@ namespace ProductManagementSystem.Controllers
 
             return Ok(res);
         }
-        public IActionResult CreateOrder([FromBody] OrderDetails) {
+        //[FromBody] OrderDetails request
+        public IActionResult CreateOrder() {
             //if in stock then should be able to create the order
             //here we need the locks on db
             this._productService.CreateOrder();
