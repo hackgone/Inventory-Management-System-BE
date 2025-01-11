@@ -24,8 +24,14 @@ namespace AllServices.DbContextService
             //modelBuilder.ApplyConfiguration(new UserMapping());
             var assemblyWithMappings = Assembly.Load("ApiData");
             modelBuilder.ApplyConfigurationsFromAssembly(assemblyWithMappings);
+            
         }
-        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.LogTo(Console.WriteLine); // Log EF Core operations to the console
+            base.OnConfiguring(optionsBuilder);
+        }
+
 
 
     }

@@ -32,14 +32,24 @@ namespace AllServices.Order
             return res;
 
         }
-        public void CreateOrder()
+        public async Task CreateOrder()
         {
             ProductOrder order = new ProductOrder(
                 "P@p.com",
                 "123@123",
                 1
             );
-            var res = _serviceHelper.GetSpecificService<BaseProvider>(typeof(Amazon)).BookProduct(order);
+            var serviceHelper = _serviceHelper.GetSpecificService<BaseProvider>(typeof(Amazon));
+            bool result = await serviceHelper.BookProduct(order);
+
+            if (result)
+            {
+                Console.WriteLine("Product booked successfully.");
+            }
+            else
+            {
+                Console.WriteLine("Product booking failed.");
+            }
         }
     }
 }

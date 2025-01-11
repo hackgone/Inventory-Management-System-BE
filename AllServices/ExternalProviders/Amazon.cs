@@ -16,13 +16,14 @@ namespace AllServices.ExternalProviders
         public Amazon(IDbService<ProductInventory> dbInventory) { 
             this._dbInventory = dbInventory;
         }
-        public override Boolean BookProduct(ProductOrder orderDetails)
+        public override async Task<Boolean> BookProduct(ProductOrder orderDetails)
         {
             if (this.dummyCreateOrder())
             {
                 List<ProductInventory> response =  this._dbInventory.GetUserByExp(x =>x.ProductId == orderDetails.ProductID).ToList();
                 response.ForEach(x => x.AvailableQuantity -= 1);
-                response.ForEach(item => this._dbInventory.UpdateEntity(item));
+                //await this._dbInventory.UpdateEntity(response);
+                response.ForEach(item =>  this._dbInventory.UpdateEntity(item));
                 return true;
             }
             return false;

@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using AllServices.DbContextService;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore.Storage;
+using ApiCore.Entity;
 
 
 namespace AllServices.RepositoryService
@@ -41,22 +42,42 @@ namespace AllServices.RepositoryService
         {
             return this.Entities.Include(expression).ToList(); //its a inner join after this we can user where clause
         }
-        public void Update(T data)
+        public async Task Update(T data)
         {
             _cts = new CancellationTokenSource();
-
-            // send a cancel after 4000 ms or call cts.Cancel();
             _cts.CancelAfter(40000);
-
-            //Fetch the Token
             CancellationToken ct = _cts.Token;
 
-            // Update the entity
-            this.Entities.Update(data);
+            try
+            {
+                this.Entities.Update(data); // Mark entity as modified
+                await this.SaveAsync(ct);
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                Console.WriteLine("Concurrency conflict detected: " + ex.Message);
 
-            // Save changes to the database
-            this.SaveAsync(ct);
+                // Handle the concurrency exception here
+                var entry = ex.Entries.Single();
+                var clientValues = (ProductInventory)entry.Entity;
+
+                var databaseEntry = await entry.GetDatabaseValuesAsync();
+                if (databaseEntry == null)
+                {
+                    Console.WriteLine("The entity was deleted by another user.");
+                    return;
+                }
+
+                var databaseValues = (ProductInventory)databaseEntry.ToObject();
+                Console.WriteLine($"Database values: AvailableQuantity = {databaseValues.AvailableQuantity}");
+
+                // Optional: Reload the original values
+                entry.OriginalValues.SetValues(databaseEntry);
+
+                throw; // Rethrow to notify the caller
+            }
         }
+
         public void Delete(T data)
         {
             
@@ -66,9 +87,6 @@ namespace AllServices.RepositoryService
         // for optimistic concurrency
         public async Task<int> SaveAsync(CancellationToken ct)
         {
-            int records = 0;
-            IDbContextTransaction tx = null;
-            //await Task.Delay(5000);
             if (ct.IsCancellationRequested)
             {
                 ct.ThrowIfCancellationRequested();
@@ -76,24 +94,14 @@ namespace AllServices.RepositoryService
 
             try
             {
-                using (tx = await _dbContext.Database.BeginTransactionAsync())
-                {
-                    records = await _dbContext.SaveChangesAsync();// savechangesasync has internal implemetation to check the entity rowversion and if not matches then throw expection.
-                    tx.Commit();
-                    return records;
-                }
+                return await _dbContext.SaveChangesAsync(ct);
             }
             catch (DbUpdateConcurrencyException ex)
             {
-               
-                throw new InvalidOperationException(ex.Message);
+                Console.WriteLine("Concurrency conflict: " + ex.Message);
+                // Handle conflict resolution here
+                throw; // Rethrow or handle as needed
             }
-            catch (DbUpdateException ex)
-            {
-                System.Console.WriteLine(ex.Message);
-                tx.Rollback();
-            }
-            return records;
         }
         protected virtual DbSet<T> Entities
         {

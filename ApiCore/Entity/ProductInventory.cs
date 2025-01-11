@@ -18,6 +18,7 @@ namespace ApiCore.Entity
         public Product product { get; set; }
         public int TotalQuantity { get; set; }
         public int AvailableQuantity { get; set; }
+        [Timestamp]
         public byte[] RowVersion { get; set; }
     }
 }

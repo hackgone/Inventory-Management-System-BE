@@ -13,6 +13,6 @@ namespace AllServices.Order
     {
         public List<Product> GetProducts(int StartPrice = int.MinValue, int EndPrice = int.MinValue);
         public List<ProductInventory> GetProductInventoryStatus();
-        public void CreateOrder();
+        public Task CreateOrder();
     }
 }

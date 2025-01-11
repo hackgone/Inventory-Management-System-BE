@@ -20,10 +20,14 @@ namespace ApiData.Mappings
                 .WithMany()
                 .HasForeignKey(pi => pi.ProductId);
 
-            // Disabling concurrency tracking for the RowVersion column
             builder.Property(pi => pi.RowVersion)
-                .IsRowVersion()
-                .IsConcurrencyToken(false); // Disables concurrency tracking for RowVersion column
+           .IsRowVersion()
+           .HasColumnName("Rowversion");
+
+            //// Disabling concurrency tracking for the RowVersion column
+            //builder.Property(pi => pi.RowVersion)
+            //    .IsRowVersion()
+            //    .IsConcurrencyToken(false); // Disables concurrency tracking for RowVersion column
         }
     }
 }

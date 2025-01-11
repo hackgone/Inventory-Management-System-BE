@@ -32,10 +32,10 @@ namespace ProductManagementSystem.Controllers
             return Ok(res);
         }
         //[FromBody] OrderDetails request
-        public IActionResult CreateOrder() {
+        public async Task<IActionResult> CreateOrder() {
             //if in stock then should be able to create the order
             //here we need the locks on db
-            this._productService.CreateOrder();
+            await this._productService.CreateOrder();
             return Ok();
         }
 

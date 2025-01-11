@@ -40,9 +40,9 @@ namespace AllServices.DbService
         {
             return  _repo.GetAll().ToList();
         }
-        public void UpdateEntity(TEntity entity)
+        public async Task UpdateEntity(TEntity entity)
         {
-            _repo.Update(entity);
+            await _repo.Update(entity);
         }
         
     }

@@ -9,7 +9,7 @@ namespace AllServices.ExternalProviders
 {
     public abstract class BaseProvider
     {
-        public abstract Boolean BookProduct(ProductOrder orderDetails);
+        public abstract Task<Boolean> BookProduct(ProductOrder orderDetails);
         public abstract Boolean GetProductsFromProvider();//specifc for each
     }
 }
